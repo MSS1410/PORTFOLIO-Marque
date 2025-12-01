@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import { Accordion } from '../../components/common/Accordion'
 import { FiCamera } from 'react-icons/fi'
 
-import avatarImg from '../../assets/marque-avatar.jpg'
+import avatarImg from '../../assets/marque-avatar.png'
 
 export function InfoView() {
   const [showPhoto, setShowPhoto] = useState(false)
@@ -141,7 +141,7 @@ const LeftColumn = styled.div`
 `
 const RightColumn = styled.div`
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 
   @media (max-width: 900px) {
     justify-content: flex-start;
