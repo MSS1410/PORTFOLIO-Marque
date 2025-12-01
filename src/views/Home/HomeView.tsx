@@ -7,12 +7,7 @@ export function HomeView() {
       <Column>
         <TitleRow>
           <Title>marque</Title>
-          {/* <Title2>m a r q u e</Title2> */}
-          {/* <Title3>mrq</Title3> */}
-          {/* <Title5>marque</Title5>
         
-          <Title6>marque</Title6>
-          <Title4>m a r q u e</Title4>  */}
         </TitleRow>
 
         <Subtitle>designer &amp; developer</Subtitle>
