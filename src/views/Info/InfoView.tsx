@@ -55,7 +55,7 @@ export function InfoView() {
             <SkillList>
               <li>React / JavaScript / TypeScript</li>
               <li>Node.js & Express</li>
-              <li>MongoDB + bases de datos</li>
+              <li>MongoDB</li>
               <li>HTML5 / CSS3 y styled-components</li>
               <li>REST APIs (JSON)</li>
               <li>Git / GitHub / Vercel / Render</li>
