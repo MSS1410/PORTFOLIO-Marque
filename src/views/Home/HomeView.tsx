@@ -7,7 +7,7 @@ export function HomeView() {
       <Column>
         <TitleRow>
           <Title>marque</Title>
-          <Title2>m a r q u e</Title2>
+          {/* <Title2>m a r q u e</Title2> */}
           {/* <Title3>mrq</Title3> */}
           {/* <Title5>marque</Title5>
         
@@ -48,8 +48,8 @@ const TitleRow = styled.div`
 const Title = styled.h1`
   margin: 0;
   font-family: 'Allura', ${({ theme }) => theme.fonts.heading};
-  font-size: clamp(3.5rem, 7vw, 6rem);
-  letter-spacing: -0.2em; /* poco espacio, al ser letra ligada */
+  font-size: 6rem;
+  letter-spacing: -0.2em;
   font-weight: 200;
   text-transform: lowercase;
   color: ${({ theme }) => theme.colors.text};
@@ -70,7 +70,7 @@ const Title3 = styled.h1`
   margin: 0;
 
   font-family: 'Allura', ${({ theme }) => theme.fonts.heading};
-  font-size: clamp(3.5rem, 7vw, 6rem);
+  font-size: 6rem;
   letter-spacing: -0.5rem;
   font-weight: 200;
   text-transform: lowercase;
@@ -79,8 +79,9 @@ const Title3 = styled.h1`
 
 const Title4 = styled.h1`
   margin: 0;
+
   font-family: 'Allura', ${({ theme }) => theme.fonts.heading};
-  font-size: clamp(3.5rem, 7vw, 6rem);
+  font-size: 6rem;
   letter-spacing: -0.2em;
   font-weight: 200;
   text-transform: lowercase;
@@ -89,7 +90,7 @@ const Title4 = styled.h1`
 const Title5 = styled.h1`
   margin: 0;
   font-family: 'Allura', ${({ theme }) => theme.fonts.heading};
-  font-size: clamp(3.5rem, 7vw, 6rem);
+  font-size: 6rem;
   letter-spacing: -0.2em;
   font-weight: 200;
   text-transform: lowercase;
@@ -98,13 +99,14 @@ const Title5 = styled.h1`
 const Title6 = styled.h1`
   margin: 0;
   font-family: 'Allura', ${({ theme }) => theme.fonts.heading};
-  font-size: clamp(3.5rem, 7vw, 6rem);
+  font-size: 6rem;
   letter-spacing: -0.2em;
   font-weight: 200;
   text-transform: lowercase;
   color: ${({ theme }) => theme.colors.text};
 `
 const Subtitle = styled.h2`
+  margin: 0;
   font-size: 1rem;
   margin-top: 0.01rem;
   text-transform: lowercase;
