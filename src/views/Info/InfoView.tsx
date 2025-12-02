@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import { Accordion } from '../../components/common/Accordion'
 import { FiCamera } from 'react-icons/fi'
 
-import avatarImg from '../../assets/marque-avatar.png'
+import avatarImg from '../../assets/marque-portfolio.jpg'
 
 export function InfoView() {
   const [showPhoto, setShowPhoto] = useState(false)
@@ -55,7 +55,7 @@ export function InfoView() {
             <SkillList>
               <li>React / JavaScript / TypeScript</li>
               <li>Node.js & Express</li>
-              <li>MongoDB</li>
+              <li>MongoDB </li>
               <li>HTML5 / CSS3 y styled-components</li>
               <li>REST APIs (JSON)</li>
               <li>Git / GitHub / Vercel / Render</li>
